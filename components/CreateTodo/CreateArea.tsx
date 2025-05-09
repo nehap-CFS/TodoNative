@@ -53,7 +53,7 @@ function handleChange(name: string,value:string){
         value={note.content}
         onChangeText={(value)=>handleChange("content",value)}
         style={styles.textinput}
-        
+         
         placeholderTextColor={"#333"}></TextInput>
 
 

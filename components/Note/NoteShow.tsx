@@ -15,17 +15,19 @@ export default function NoteShow({title,content,id,onDel}:self) {
     onDel(id);
   }
   return (
+    <View>
+    <ScrollView style={styles.notewrap}>
     
-    <View style={styles.notewrap}>
       
       <Text style={styles.title}>Title: {title}</Text>
       <Text style={styles.content}>Content: {content}</Text>
-    
+      
+      </ScrollView>
+     
       <TouchableOpacity onPress={handleDel} style={styles.delbtn}>
         <Text style={styles.deltext}>Delete</Text>
       </TouchableOpacity>
-    </View>
-    
+      </View>
   )
 }
 

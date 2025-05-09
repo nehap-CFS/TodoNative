@@ -28,7 +28,7 @@ export default function App() {
     }
   return (
     <SafeAreaView style={{flex:1}}>
-      <LinearGradient colors={['#A7727D','#EDDBC7']} style={{flex:1}}> 
+      <LinearGradient colors={['#7BD3EA','#A1EEBD','#F6F7C4']} style={{flex:1}}> 
     <ScrollView>
     
     <View>

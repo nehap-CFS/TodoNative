@@ -11,7 +11,7 @@ import { StyleSheet } from "react-native";
     margin:"auto"
    ,marginTop:20,
    borderRadius:10,
-   marginBottom:40
+   marginBottom:-20
   
   },
   title:{
@@ -31,8 +31,8 @@ import { StyleSheet } from "react-native";
     justifyContent:"center",
     alignItems:"center",
     position:"relative",
-    top:-10,
-    left:230,
+    top:-15,
+    left:280,
     
   },
   deltext:{
