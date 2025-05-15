@@ -9,7 +9,7 @@ export const styles=StyleSheet.create({
     marginTop:30,
     width:300,
     marginHorizontal:"auto",
-    textAlign:"center",
+    
     backgroundColor:"#F1F0E8",
     height:-10,
     borderRadius:10,
@@ -35,4 +35,5 @@ export const styles=StyleSheet.create({
     textAlign:"center",
     fontSize:20
   }
+  
 })

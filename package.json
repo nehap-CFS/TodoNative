@@ -10,9 +10,11 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.2",
     "react": "19.0.0",
     "react-native": "0.79.2",
-    "react-native-linear-gradient": "^2.8.3"
+    "react-native-linear-gradient": "^2.8.3",
+    "yup": "^1.6.1"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
